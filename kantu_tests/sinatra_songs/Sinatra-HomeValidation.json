@@ -1,0 +1,35 @@
+﻿{
+  "CreationDate": "2018-5-10",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "http://songs-by-sinatra.herokuapp.com/",
+      "Value": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "",
+      "Value": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "//h1['Songs By Sinatra']",
+      "Value": ""
+    },
+    {
+      "Command": "verifyText",
+      "Target": "//p",
+      "Value": "Welcome to this website all about the songs of the great Frank Sinatra"
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "//img[@src='/images/sinatra.jpg']",
+      "Value": "/images/sinatra.jpg"
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "link=log in ",
+      "Value": ""
+    }
+  ]
+}
